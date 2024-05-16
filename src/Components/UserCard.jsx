@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const UserCard = ({ users }) => {
   return (
     <div className="container">
-      <div className="row row-cols-2 row-cols-md-4">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
         {users.map((user) => (
           <div key={user.id} className="col">
             <div className="card">
